@@ -5,8 +5,6 @@ A lightweight javascript timer
 
 # usage
 
-## examples
-
 Create a timer object by passing it at least the seconds option, in this case with 180 seconds
 
     var timer = new Timer({
