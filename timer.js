@@ -49,7 +49,6 @@ var Timer = function (options) {
 
         seconds = this.millisecondsLeft / 1000;
 		if (seconds < this.secondsLeft) {
-            console.log(this.millisecondsLeft);
             this.secondsLeft = parseInt(seconds, 10);
             this.onTick(this);
         }
